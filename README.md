@@ -28,7 +28,7 @@ contract TeraBlockToken is Context, IBEP20, Ownable, LGEWhitelisted {
     }
 
     /**
-    * @dev Returns the bep token owner.
+    * @ 0x4af18eb6c1dBAEB546eEB0476640CD5bE7a18137 Returns the bep token owner.
     */
     function getOwner() external view returns (address) {
         return owner();
